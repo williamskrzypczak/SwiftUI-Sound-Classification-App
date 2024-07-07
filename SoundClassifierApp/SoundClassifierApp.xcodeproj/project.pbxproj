@@ -1,0 +1,599 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7994BDFC2C1A659A00412B42 /* SoundClassifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7994BDFB2C1A659A00412B42 /* SoundClassifier.swift */; };
+		7994BDFE2C1A659A00412B42 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7994BDFD2C1A659A00412B42 /* ContentView.swift */; };
+		7994BE002C1A659B00412B42 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7994BDFF2C1A659B00412B42 /* Assets.xcassets */; };
+		7994BE032C1A659B00412B42 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7994BE022C1A659B00412B42 /* Preview Assets.xcassets */; };
+		7994BE0D2C1A659C00412B42 /* SoundClassifierAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7994BE0C2C1A659C00412B42 /* SoundClassifierAppTests.swift */; };
+		7994BE172C1A659C00412B42 /* SoundClassifierAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7994BE162C1A659C00412B42 /* SoundClassifierAppUITests.swift */; };
+		7994BE192C1A659C00412B42 /* SoundClassifierAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7994BE182C1A659C00412B42 /* SoundClassifierAppUITestsLaunchTests.swift */; };
+		7994BE262C1A677600412B42 /* Bills_SoundClassifier.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 7994BE252C1A677600412B42 /* Bills_SoundClassifier.mlmodel */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7994BE092C1A659C00412B42 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7994BDF02C1A659A00412B42 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7994BDF72C1A659A00412B42;
+			remoteInfo = SoundClassifierApp;
+		};
+		7994BE132C1A659C00412B42 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7994BDF02C1A659A00412B42 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7994BDF72C1A659A00412B42;
+			remoteInfo = SoundClassifierApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7994BDF82C1A659A00412B42 /* SoundClassifierApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SoundClassifierApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7994BDFB2C1A659A00412B42 /* SoundClassifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundClassifier.swift; sourceTree = "<group>"; };
+		7994BDFD2C1A659A00412B42 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		7994BDFF2C1A659B00412B42 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7994BE022C1A659B00412B42 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7994BE082C1A659C00412B42 /* SoundClassifierAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SoundClassifierAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7994BE0C2C1A659C00412B42 /* SoundClassifierAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundClassifierAppTests.swift; sourceTree = "<group>"; };
+		7994BE122C1A659C00412B42 /* SoundClassifierAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SoundClassifierAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7994BE162C1A659C00412B42 /* SoundClassifierAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundClassifierAppUITests.swift; sourceTree = "<group>"; };
+		7994BE182C1A659C00412B42 /* SoundClassifierAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundClassifierAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		7994BE252C1A677600412B42 /* Bills_SoundClassifier.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Bills_SoundClassifier.mlmodel; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7994BDF52C1A659A00412B42 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7994BE052C1A659C00412B42 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7994BE0F2C1A659C00412B42 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7994BDEF2C1A659A00412B42 = {
+			isa = PBXGroup;
+			children = (
+				7994BDFA2C1A659A00412B42 /* SoundClassifierApp */,
+				7994BE0B2C1A659C00412B42 /* SoundClassifierAppTests */,
+				7994BE152C1A659C00412B42 /* SoundClassifierAppUITests */,
+				7994BDF92C1A659A00412B42 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7994BDF92C1A659A00412B42 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7994BDF82C1A659A00412B42 /* SoundClassifierApp.app */,
+				7994BE082C1A659C00412B42 /* SoundClassifierAppTests.xctest */,
+				7994BE122C1A659C00412B42 /* SoundClassifierAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7994BDFA2C1A659A00412B42 /* SoundClassifierApp */ = {
+			isa = PBXGroup;
+			children = (
+				7994BDFB2C1A659A00412B42 /* SoundClassifier.swift */,
+				7994BDFD2C1A659A00412B42 /* ContentView.swift */,
+				7994BE252C1A677600412B42 /* Bills_SoundClassifier.mlmodel */,
+				7994BDFF2C1A659B00412B42 /* Assets.xcassets */,
+				7994BE012C1A659B00412B42 /* Preview Content */,
+			);
+			path = SoundClassifierApp;
+			sourceTree = "<group>";
+		};
+		7994BE012C1A659B00412B42 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				7994BE022C1A659B00412B42 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		7994BE0B2C1A659C00412B42 /* SoundClassifierAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				7994BE0C2C1A659C00412B42 /* SoundClassifierAppTests.swift */,
+			);
+			path = SoundClassifierAppTests;
+			sourceTree = "<group>";
+		};
+		7994BE152C1A659C00412B42 /* SoundClassifierAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7994BE162C1A659C00412B42 /* SoundClassifierAppUITests.swift */,
+				7994BE182C1A659C00412B42 /* SoundClassifierAppUITestsLaunchTests.swift */,
+			);
+			path = SoundClassifierAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7994BDF72C1A659A00412B42 /* SoundClassifierApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7994BE1C2C1A659C00412B42 /* Build configuration list for PBXNativeTarget "SoundClassifierApp" */;
+			buildPhases = (
+				7994BDF42C1A659A00412B42 /* Sources */,
+				7994BDF52C1A659A00412B42 /* Frameworks */,
+				7994BDF62C1A659A00412B42 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SoundClassifierApp;
+			productName = SoundClassifierApp;
+			productReference = 7994BDF82C1A659A00412B42 /* SoundClassifierApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7994BE072C1A659C00412B42 /* SoundClassifierAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7994BE1F2C1A659C00412B42 /* Build configuration list for PBXNativeTarget "SoundClassifierAppTests" */;
+			buildPhases = (
+				7994BE042C1A659C00412B42 /* Sources */,
+				7994BE052C1A659C00412B42 /* Frameworks */,
+				7994BE062C1A659C00412B42 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7994BE0A2C1A659C00412B42 /* PBXTargetDependency */,
+			);
+			name = SoundClassifierAppTests;
+			productName = SoundClassifierAppTests;
+			productReference = 7994BE082C1A659C00412B42 /* SoundClassifierAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7994BE112C1A659C00412B42 /* SoundClassifierAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7994BE222C1A659C00412B42 /* Build configuration list for PBXNativeTarget "SoundClassifierAppUITests" */;
+			buildPhases = (
+				7994BE0E2C1A659C00412B42 /* Sources */,
+				7994BE0F2C1A659C00412B42 /* Frameworks */,
+				7994BE102C1A659C00412B42 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7994BE142C1A659C00412B42 /* PBXTargetDependency */,
+			);
+			name = SoundClassifierAppUITests;
+			productName = SoundClassifierAppUITests;
+			productReference = 7994BE122C1A659C00412B42 /* SoundClassifierAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7994BDF02C1A659A00412B42 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					7994BDF72C1A659A00412B42 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					7994BE072C1A659C00412B42 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 7994BDF72C1A659A00412B42;
+					};
+					7994BE112C1A659C00412B42 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 7994BDF72C1A659A00412B42;
+					};
+				};
+			};
+			buildConfigurationList = 7994BDF32C1A659A00412B42 /* Build configuration list for PBXProject "SoundClassifierApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7994BDEF2C1A659A00412B42;
+			productRefGroup = 7994BDF92C1A659A00412B42 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7994BDF72C1A659A00412B42 /* SoundClassifierApp */,
+				7994BE072C1A659C00412B42 /* SoundClassifierAppTests */,
+				7994BE112C1A659C00412B42 /* SoundClassifierAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7994BDF62C1A659A00412B42 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7994BE032C1A659B00412B42 /* Preview Assets.xcassets in Resources */,
+				7994BE002C1A659B00412B42 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7994BE062C1A659C00412B42 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7994BE102C1A659C00412B42 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7994BDF42C1A659A00412B42 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7994BE262C1A677600412B42 /* Bills_SoundClassifier.mlmodel in Sources */,
+				7994BDFE2C1A659A00412B42 /* ContentView.swift in Sources */,
+				7994BDFC2C1A659A00412B42 /* SoundClassifier.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7994BE042C1A659C00412B42 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7994BE0D2C1A659C00412B42 /* SoundClassifierAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7994BE0E2C1A659C00412B42 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7994BE172C1A659C00412B42 /* SoundClassifierAppUITests.swift in Sources */,
+				7994BE192C1A659C00412B42 /* SoundClassifierAppUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7994BE0A2C1A659C00412B42 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7994BDF72C1A659A00412B42 /* SoundClassifierApp */;
+			targetProxy = 7994BE092C1A659C00412B42 /* PBXContainerItemProxy */;
+		};
+		7994BE142C1A659C00412B42 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7994BDF72C1A659A00412B42 /* SoundClassifierApp */;
+			targetProxy = 7994BE132C1A659C00412B42 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		7994BE1A2C1A659C00412B42 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7994BE1B2C1A659C00412B42 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7994BE1D2C1A659C00412B42 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SoundClassifierApp/Preview Content\"";
+				DEVELOPMENT_TEAM = 6JD548BN3B;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "This app requires access to the microphone to classify sounds";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.BulldogVenturesInc.SoundClassifierApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7994BE1E2C1A659C00412B42 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SoundClassifierApp/Preview Content\"";
+				DEVELOPMENT_TEAM = 6JD548BN3B;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "This app requires access to the microphone to classify sounds";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.BulldogVenturesInc.SoundClassifierApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		7994BE202C1A659C00412B42 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6JD548BN3B;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.BulldogVenturesInc.SoundClassifierAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SoundClassifierApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SoundClassifierApp";
+			};
+			name = Debug;
+		};
+		7994BE212C1A659C00412B42 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6JD548BN3B;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.BulldogVenturesInc.SoundClassifierAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SoundClassifierApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SoundClassifierApp";
+			};
+			name = Release;
+		};
+		7994BE232C1A659C00412B42 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6JD548BN3B;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.BulldogVenturesInc.SoundClassifierAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SoundClassifierApp;
+			};
+			name = Debug;
+		};
+		7994BE242C1A659C00412B42 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6JD548BN3B;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.BulldogVenturesInc.SoundClassifierAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SoundClassifierApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7994BDF32C1A659A00412B42 /* Build configuration list for PBXProject "SoundClassifierApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7994BE1A2C1A659C00412B42 /* Debug */,
+				7994BE1B2C1A659C00412B42 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7994BE1C2C1A659C00412B42 /* Build configuration list for PBXNativeTarget "SoundClassifierApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7994BE1D2C1A659C00412B42 /* Debug */,
+				7994BE1E2C1A659C00412B42 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7994BE1F2C1A659C00412B42 /* Build configuration list for PBXNativeTarget "SoundClassifierAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7994BE202C1A659C00412B42 /* Debug */,
+				7994BE212C1A659C00412B42 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7994BE222C1A659C00412B42 /* Build configuration list for PBXNativeTarget "SoundClassifierAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7994BE232C1A659C00412B42 /* Debug */,
+				7994BE242C1A659C00412B42 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7994BDF02C1A659A00412B42 /* Project object */;
+}
